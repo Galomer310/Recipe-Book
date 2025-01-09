@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Recipe Book App</title>
+    <script type="module" crossorigin src="/assets/index-3__vO5Rl.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BtPTTA3E.css">
+  </head>
+  <body>
+    
+    <div id="recipeContainer"></div>
+    <div class="recipe-app">
+      <form id="recipeEntryForm">
+        <input type="text" id="recipeTitle" placeholder="Recipe Title" required />
+        <textarea
+          id="ingredients"
+          placeholder="Enter ingredients (one per line)"
+          required
+        ></textarea>
+        <textarea
+          id="instructions"
+          placeholder="Enter cooking instructions"
+          required
+        ></textarea>
+        <button type="submit">Add Recipe</button>
+      </form>
+    
+      <div id="recipeContainer"></div>
+    
+      <button id="clearRecipesButton">Clear All Recipes</button>
+    </div>
+    
+    
+  </body>
+</html>
